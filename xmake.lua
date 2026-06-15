@@ -3,13 +3,13 @@ includes("lib/commonlibf4")
 
 -- set project constants
 set_project("scaling_flag_remover_ae")
-set_version("1.0.1")
+set_version("1.0.2")
 set_license("MIT")
 set_languages("c++23")
 set_warnings("allextra")
 
 -- add common rules
-add_rules("mode.debug", "mode.releasedbg")
+add_rules("mode.debug", "mode.releasedbg", "mode.release")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- define targets

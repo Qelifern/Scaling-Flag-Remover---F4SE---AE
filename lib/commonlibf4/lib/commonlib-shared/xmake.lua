@@ -9,7 +9,7 @@ set_warnings("allextra")
 set_encodings("utf-8")
 
 -- add common rules
-add_rules("mode.debug", "mode.releasedbg")
+add_rules("mode.debug", "mode.releasedbg", "mode.release")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- add options
